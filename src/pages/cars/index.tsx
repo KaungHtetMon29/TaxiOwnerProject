@@ -2,7 +2,7 @@ import Carlistcard from "@/components/carlistcard/carlistcard";
 
 function Cars() {
   return (
-    <div>
+    <div className="px-4">
       <Carlistcard />
     </div>
   );
