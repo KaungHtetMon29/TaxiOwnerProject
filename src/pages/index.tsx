@@ -7,7 +7,12 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <div className="flex items-center flex-col gap-8">
-      <Card /> <Card /> <Card /> <Card />
+      <Card path="cars">
+        <h1 className="text-2xl font-bold ">Cars</h1>
+      </Card>
+      <Card path="drivers">
+        <h1 className="text-2xl font-bold ">Drivers</h1>
+      </Card>
     </div>
   );
 }
