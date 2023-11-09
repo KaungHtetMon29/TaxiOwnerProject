@@ -11,7 +11,7 @@ function Breadcumb(props: { children: React.ReactNode }) {
         {route.map((e, i) => (
           <Link
             href={`${i === 2 ? `/cars/${e}` : `/${e}`}`}
-            key={e}
+            key={i}
             className="font-semibold gap-2"
           >
             <div className="flex">
