@@ -10,10 +10,7 @@ function Detailcard() {
       <Status header="Owner Name" />
       <Status header="Driver Name" />
       <Status header="Fuel Type" />
-      <Link
-        href={`/cars/${router.asPath.split("/")[2]}/1`}
-        className="font-bold"
-      >
+      <Link href={`/cars/1`} className="font-bold">
         Maintenance History
       </Link>
     </div>

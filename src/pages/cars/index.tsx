@@ -1,10 +1,16 @@
-import Carlistcard from "@/components/carlistcard/carlistcard";
+import Detailcard from "@/components/maintenancecard/maintenancecard";
+import Breadcumb from "@/components/nav/breadcumbnav";
+import Listlayouts from "@/layout/listlayout";
+import NormallistLayout from "@/layout/normallistlayout";
 
-function Cars() {
+function Detailcar() {
   return (
-    <div className="px-4">
-      <Carlistcard />
-    </div>
+    <NormallistLayout>
+      <Detailcard />
+      <Detailcard />
+      <Detailcard />
+      <Detailcard />
+    </NormallistLayout>
   );
 }
-export default Cars;
+export default Detailcar;
