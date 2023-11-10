@@ -8,7 +8,8 @@ import { useEffect } from "react";
 function Maintenances() {
   const router = useRouter();
   return (
-    <Breadcumb>
+    <>
+      <Breadcumb />
       <Listlayouts>
         <MaintenanceHistoryCard />
         <MaintenanceHistoryCard />
@@ -17,7 +18,7 @@ function Maintenances() {
         <MaintenanceHistoryCard />
         <MaintenanceHistoryCard />
       </Listlayouts>
-    </Breadcumb>
+    </>
   );
 }
 export default Maintenances;
