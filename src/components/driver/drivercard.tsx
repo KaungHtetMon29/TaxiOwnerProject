@@ -11,9 +11,9 @@ function DriverCard() {
 export default DriverCard;
 export function DriverDetail({ header }: { header: string }) {
   return (
-    <div className="w-full flex">
-      <div className="w-1/3">{header}</div>
-      <div className="w-2/3">test</div>
+    <div className="w-full flex text-sm">
+      <div className="w-1/2">{header}</div>
+      <div className="w-1/2">test</div>
     </div>
   );
 }

@@ -5,7 +5,7 @@ import type { AppProps } from "next/app";
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <Nav>
-      <div className="pb-20 font-segoe">
+      <div className="pb-20 font-segoe mt-6">
         <Component {...pageProps} />
       </div>
     </Nav>
