@@ -8,7 +8,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Taxi Driver Helper</title>
+        <title>Taxi Rental Helper</title>
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
