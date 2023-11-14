@@ -10,6 +10,7 @@ export default function App({ Component, pageProps }: AppProps) {
       <Head>
         <title>Taxi Driver Helper</title>
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <Nav>
         <div className="pb-20 font-segoe">
