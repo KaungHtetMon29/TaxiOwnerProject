@@ -2,6 +2,7 @@ import MaintenanceHistoryCard from "@/components/maintenancecard/historycard";
 import Detailcard from "@/components/maintenancecard/maintenancecard";
 import Breadcumb from "@/components/nav/breadcumbnav";
 import Listlayouts from "@/layout/listlayout";
+import NormallistLayout from "@/layout/normallistlayout";
 import GetFetcher from "@/utils/getfetcher";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
@@ -11,14 +12,14 @@ function Maintenances() {
   return (
     <>
       <Breadcumb />
-      <Listlayouts>
+      <NormallistLayout>
         <MaintenanceHistoryCard />
         <MaintenanceHistoryCard />
         <MaintenanceHistoryCard />
         <MaintenanceHistoryCard />
         <MaintenanceHistoryCard />
         <MaintenanceHistoryCard />
-      </Listlayouts>
+      </NormallistLayout>
     </>
   );
 }
