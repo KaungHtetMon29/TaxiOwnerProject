@@ -21,7 +21,8 @@ function Cardframe(props: {
 }) {
   return (
     <MUICard
-      sx={{ width: { xs: 340, sm: 500 }, borderRadius: 3, padding: 2 }}
+      className="sm:w-[500px] w-[320px]"
+      sx={{ borderRadius: 3, padding: 2 }}
       style={{ backgroundColor: theme.palette.primary.main }}
     >
       <CardHeader

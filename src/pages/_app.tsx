@@ -27,7 +27,7 @@ export default function App({ Component, pageProps }: AppProps) {
       </Head>
       <ThemeProvider theme={theme}>
         <Nav>
-          <div className="pb-20 font-segoe">
+          <div className="font-segoe">
             <Component {...pageProps} />
           </div>
         </Nav>
